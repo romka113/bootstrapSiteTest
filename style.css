@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+.cuda-font{
+    font-family: 'Creepster', cursive;
+}
+.cuda-background{
+    background-color: #86509c;
+}
+.navbar-color ul li a{
+    color: white;!important;
+}
+.navbar-hover:hover{
+    background-color: rgba(107,23,134,0.88);
+}
+.navbar-hover a:hover{
+    color: white;
+}
+.navbar-colors a{
+    color: white;
+    font-size: 2rem;
+}
+.button-size{
+    width: 5em;
+    height: 2em;
+}
+/*.block-height{*/
+/*    height: 30rem;*/
+/*}*/
+.buttons-colors button{
+    color: white;
+}
+.buttons-colors h1{
+    color: white;
+}
+.second-block{
+    background-color: #17c1a4;
+}
+.img-sizing img{
+    height:100%;
+    width: 100%;
+    background-color: #17c1a4;
+}
+.text-blue{
+    color: blue;
+}
+#third-block{
+    background-color: #e7f1f8;!important;
+}
+#third-blocks{
+    background-color: #e7f1f8;!important;
+}
+.third-block{
+    background-color: #e7f1f8;
+}
+.circle-wrap {
+    margin: 150px auto;
+    width: 150px;
+    height: 150px;
+    background: white;
+    border-radius: 50%;
+
+}
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: red;
+}
+.circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.mask.full,
+.circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(135deg);
+}
+
+
+@keyframes fill{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(135deg);
+    }
+}
+.circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: white;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: black;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+}
